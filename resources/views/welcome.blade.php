@@ -251,7 +251,7 @@
                                 <p class="text-base text-gray-400 truncate">Days. Heaven. Fruit fly and to, set heaven. Bearing which whose isn’t cattle kind moveth</p>
                                 <span class="flex space-x-2">
                                     <img class="" src="svg/calendar.svg" alt="game">
-                                    <p class="text-gray-400">September 18, 2019</p>
+                                    <p class="text-gray-400">September 18, 2020</p>
                                 </span>
                             </span>
                         </div>
