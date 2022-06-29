@@ -7,12 +7,12 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@2.15.0/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-700">
+<body class="bg-sf-dark-gray" x-data="{ hover: false }">
     <div class="pb-20">
         <!-- Header section -->
         <div class="pattern" >
             <div class="w-full">
-                <div class="container mx-auto flex flex-col md:flex-row md:justify-between bg-gray-700 h-28 md:h-12 items-center justify-center space-y-6 md:space-y-0 px-3 md:px-10">
+                <div class="container mx-auto flex flex-col md:flex-row md:justify-between h-28 md:h-12 items-center justify-center space-y-6 md:space-y-0 px-3 md:px-10">
                     <ul class="flex space-x-3">
                         <li class="flex justify-center items-center h-7 w-7 rounded-full bg-gray-100"><img class="w-4 h-4" src="svg/twitch.svg" alt="twitch"></li>
                         <li class="flex justify-center items-center h-7 w-7 rounded-full bg-gray-100"><img class="w-4 h-4" src="svg/youtube.svg" alt="youtube"></li>
@@ -52,7 +52,7 @@
         <div class="w-full bg-gray-700 bg-transparent mt-8">
             <!-- caroussel section -->
             <div class="container mx-auto px-3 md:px-10">
-                <div class="carousel w-full rounded-lg h-[65vh] border-b-4 border-sf-pink
+                <div class="carousel w-full rounded-lg h-[65vh] border-b-4 border-sf-pink">
                     <div id="item1" class="carousel-item w-full relative">
                         <img src="https://wp.nkdev.info/squadforce/wp-content/uploads/2019/07/slide-41.jpg" class="w-full" />
                         <div class="absolute top-6 right-6 bottom-6 p-8 w-1/3 rounded-lg bg-gray-900 opacity-100 bg-opacity-90 text-white">
@@ -193,21 +193,21 @@
             <!-- PC PS4 & XBOX -->
             <div class="container mx-auto px-3 md:px-10 my-2">
                 <div class="flex flex-col space-y-12 lg:space-y-0 lg:flex-row justify-between xl:space-y-0 lg:space-x-6">
-                    <div class="flex items-center space-x-12 pl-16 lg:space-x-6 w-full lg:w-1/3 px-2 py-6 bg-gray-600 rounded-lg">
+                    <div class="flex items-center space-x-12 pl-16 lg:space-x-6 w-full lg:w-1/3 px-2 py-6 bg-sf-slate-gray rounded-lg">
                         <img class="w-20 h-20" src="svg/game.svg" alt="game">
                         <div class="space-y-3 uppercase font-bold">
                             <p class="text-2xl text-white">PC</p>
                             <p class="text-sf-pink text-2xl">View games</p>
                         </div>
                     </div>
-                    <div class="flex items-center space-x-12 pl-16 lg:space-x-6 w-full lg:w-1/3 px-2 py-6 bg-gray-600 rounded-lg">
+                    <div class="flex items-center space-x-12 pl-16 lg:space-x-6 w-full lg:w-1/3 px-2 py-6 bg-sf-slate-gray rounded-lg">
                         <img class="w-20 h-20" src="svg/game2.svg" alt="game">
                         <div class="space-y-3 uppercase font-bold">
                             <p class="text-2xl text-white">PS4</p>
                             <p class="text-sf-pink text-2xl">View games</p>
                         </div>
                     </div>
-                    <div class="flex items-center space-x-12 pl-16 lg:space-x-6 w-full lg:w-1/3 px-2 py-6 bg-gray-600 rounded-lg">
+                    <div class="flex items-center space-x-12 pl-16 lg:space-x-6 w-full lg:w-1/3 px-2 py-6 bg-sf-slate-gray rounded-lg">
                         <img class="w-20 h-20" src="svg/game4.svg" alt="game">
                         <div class="space-y-3 uppercase font-bold">
                             <p class="text-2xl text-white">XBOX</p>
@@ -231,21 +231,21 @@
 
             <!-- Creepth section -->
             <div class="container mx-auto px-3 md:px-10 my-12">
-                <div class="lg:flex bg-sf-slime-gray rounded-md h-[600px]">
+                <div class="lg:flex bg-sf-slate-gray rounded-md h-[600px]">
                     <div class="md:w-1/2 overflow-x-hidden  border-r-2 border-gray-500 scrollbar-none">
-                        <div class="p-3 flex space-x-6 border-b-2 border-gray-500">
-                            <img class="w-28 h-28 rounded-md" src="img/creepth1.jpg" alt="game">
+                        <div class="p-3 flex space-x-6 border-b-2 border-gray-700 hover:cursor-pointer hover:bg-gray-700">
+                            <img class="w-28 h-28 rounded-md hover:object-fill object-cover duration-500 delay-150" src="img/creepth1.jpg" alt="game">
                             <div class="space-y-1 text-white">
                                 <p class="text-lg font-bold uppercase">Lesser years third in you’re rule</p>
-                                <p class="truncate text-base text-gray-400">Our them creepeth living saw they’re. Unto itself over made every fish make were blessed</p>
+                                <p class="text-base text-gray-400 truncate">Our them creepeth living saw they’re. Unto itself over made every fish make were blessed</p>
                                 <span class="flex space-x-2">
                                     <img class="" src="svg/calendar.svg" alt="game">
                                     <p class="text-gray-400">September 12, 2019</p>
                                 </span>
                             </div>
                         </div>
-                        <div class="p-3 flex space-x-6 border-b-2 border-gray-500">
-                            <img class="w-28 h-28 rounded-md" src="img/creepth2.jpg" alt="game">
+                        <div class="p-3 flex space-x-6 border-b-2 border-gray-700 hover:cursor-pointer hover:bg-gray-700">
+                            <img class="w-28 h-28 rounded-md hover:object-fill object-cover duration-500 delay-150" src="img/creepth2.jpg" alt="game">
                             <span class="space-y-1 py-2 text-white">
                                 <p class="text-lg font-bold uppercase">We found a witch! May we burn her?</p>
                                 <p class="text-base text-gray-400 truncate">Days. Heaven. Fruit fly and to, set heaven. Bearing which whose isn’t cattle kind moveth</p>
@@ -255,8 +255,8 @@
                                 </span>
                             </span>
                         </div>
-                        <div class="p-3 flex space-x-6 border-b-2 border-gray-500">
-                            <img class="w-28 flex-none rounded-md" src="img/creepth3.jpg" alt="game">
+                        <div class="p-3 flex space-x-6 border-b-2 border-gray-700 hover:cursor-pointer hover:bg-gray-700">
+                            <img class="w-28 h-28 rounded-md hover:object-fill object-cover duration-500 delay-150" src="img/creepth3.jpg" alt="game">
                             <span class="space-y-1 py-2 text-white">
                                 <p class="text-lg font-bold uppercase">Creepeth you’re a behold heaven</p>
                                 <p class="text-base text-gray-400 truncate">Abundantly brought blessed subdue in beginning blessed man image, sea likeness creeping. Air said Bring</p>
@@ -266,8 +266,8 @@
                                 </span>
                             </span>
                         </div>
-                        <div class="p-3 flex space-x-6 border-b-2 border-gray-500">
-                            <img class="w-28 h-28 rounded-md" src="img/creepth4.jpg" alt="game">
+                        <div class="p-3 flex space-x-6 border-b-2 border-gray-700 hover:cursor-pointer hover:bg-gray-700">
+                            <img class="w-28 h-28 rounded-md hover:object-fill object-cover duration-500 delay-150" src="img/creepth4.jpg" alt="game">
                             <span class="space-y-1 py-2 text-white">
                                 <p class="text-lg font-bold uppercase">Doesn’t bring moveth you’re was</p>
                                 <p class="text-base text-gray-400 truncate">All. Us kind don’t. Won’t them firmament night fly also give creature female them creature</p>
@@ -277,8 +277,8 @@
                                 </span>
                             </span>
                         </div>
-                        <div class="p-3 flex space-x-6 border-b-2 border-gray-500">
-                            <img class="w-28 h-28 rounded-md" src="img/creepth5.jpg" alt="game">
+                        <div class="p-3 flex space-x-6 border-b-2 border-gray-700 hover:cursor-pointer hover:bg-gray-700">
+                            <img class="w-28 h-28 rounded-md hover:object-fill object-cover duration-500 delay-150" src="img/creepth5.jpg" alt="game">
                             <span class="space-y-1 py-2 text-white">
                                 <p class="text-lg font-bold uppercase">Tree set gathering moved place</p>
                                 <p class="text-base text-gray-400 truncate">His Brought green without stars seasons great itself all fly. Brought midst isn’t tree itself</p>
